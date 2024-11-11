@@ -12,10 +12,11 @@ public class WeaponStatistics : ScriptableObject
     public float damage;
     public int amunition;
     public float realodTime;
-    public float range;
+    //public float range;
     public float fireRate;
     public float bulletSpeed;
 
+    public float BulletRemovalLifetime;
 
     public GameObject bulletProjectile;
 }

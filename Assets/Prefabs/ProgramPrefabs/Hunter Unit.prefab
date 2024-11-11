@@ -2567,7 +2567,7 @@ MonoBehaviour:
   weaponStatistics: {fileID: 11400000, guid: 0403dd90facda284bb963af1cacfe648, type: 2}
   hunterAnimator: {fileID: 3478822063656666088}
   walkAudioSource: {fileID: 2274085827752966620}
-  ShootAudio: {fileID: 0}
+  ShootAudio: {fileID: 3933406767501215721}
 --- !u!114 &280614769269977016
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -18,4 +18,5 @@ MonoBehaviour:
   range: 10
   fireRate: 1
   bulletSpeed: 10
+  BulletRemovalLifetime: 3.5
   bulletProjectile: {fileID: 5637689861573061700, guid: c69d40a35ea0b574393dc276c032f138, type: 3}

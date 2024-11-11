@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 
@@ -13,20 +14,22 @@ public class BulletManager : MonoBehaviour
 
     private Vector3 startPosition;
     private float distanceTraveled;
+
     /// this void is called before the first frame.
     private void Start()
     {
         // Sets the start position to the cureent position of the bullet.
         startPosition = transform.position;
+        Destroy(gameObject, weaponStatistics.BulletRemovalLifetime);
     }
 
 
     ///this void is called every frame
-    private void Update()
-    {
-        // Executes the void Range
-        Range();
-    }
+    //private void Update()
+    //{
+     //   // Executes the void Range
+     //   Range();
+   // }
 
 
     /// This void is called everytime a collision is called.
@@ -65,17 +68,18 @@ public class BulletManager : MonoBehaviour
     }
 
 
-    /// Controlls the range of the bullet
-    private void Range()
-    {
-        // checks the difference between the start position and its current position and then equals the difference to the "distanceTraveled" float.
-        distanceTraveled = Vector3.Distance(transform.position, startPosition);
+    // Controlls the range of the bullet
+    //private void Range()
+    //{
+    //    // checks the difference between the start position and its current position and then equals the difference to the "distanceTraveled" float.
+    //    distanceTraveled = Vector3.Distance(transform.position, startPosition);
 
-        // Checks if the "distanceTraveled" float is greater than the "range" float.
-        if (distanceTraveled > weaponStatistics.range)
-        {
-            //destroyes the bullet if the "distanceTraveled" float is greater than the "range" float.
-            Destroy(gameObject);
-        }
-    }
+    //    // Checks if the "distanceTraveled" float is greater than the "range" float.
+    //    if (distanceTraveled > weaponStatistics.range)
+    //    {
+    //        //destroyes the bullet if the "distanceTraveled" float is greater than the "range" float.
+    //        Destroy(gameObject);
+    //    }
+    //}
+
 }

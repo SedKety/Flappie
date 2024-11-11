@@ -729,7 +729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5814333884370240882, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 5814333884370240882, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -737,7 +737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5814333884370240882, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 5814333884370240882, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -766,6 +766,14 @@ PrefabInstance:
     - target: {fileID: 5814333884370240882, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359723268702058315, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
+      propertyPath: width
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359723268702058315, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
+      propertyPath: height
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7359723268702058315, guid: 53c12ce625af5d4498efb06f64a8b50d, type: 3}
       propertyPath: treeHolder
@@ -1488,6 +1496,10 @@ PrefabInstance:
     - target: {fileID: 4120872877081668578, guid: a6c5580c8222dec4cbe75fc39da41f88, type: 3}
       propertyPath: m_Name
       value: lighting
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120872877081668578, guid: a6c5580c8222dec4cbe75fc39da41f88, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8260920055062577045, guid: a6c5580c8222dec4cbe75fc39da41f88, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3960,7 +3972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca701209213f0341a19b7dfefaf0a48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTimer: 120
+  gameTimer: 600
   timerFormatted: 
   timer: {fileID: 1019023379}
   pointUi: {fileID: 1784383774}
@@ -6871,7 +6883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3353587486906732237, guid: 6e8d8104bb39fb5408b74bdbefd928f6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3353587486906732237, guid: 6e8d8104bb39fb5408b74bdbefd928f6, type: 3}
       propertyPath: m_LocalPosition.z

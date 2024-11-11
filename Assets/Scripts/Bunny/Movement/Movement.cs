@@ -14,7 +14,6 @@ public class Movement : MonoBehaviour
 
   
     public float jumpForce, sensitivity, moveSpeed, sprintspeed, currentSpeed;
-    float maxJumpForce;
 
     public Vector3 forceDirection;
     public Vector3 jump;
@@ -24,9 +23,11 @@ public class Movement : MonoBehaviour
 
     public Animator animator;
 
-    public bool isGrounded, jumping;
+    public bool isGrounded, jumping, spawnedYet;
+
 
     RaycastHit hit;
+    public LayerMask groundLayer;
 
     public AudioSource walkAudio;
 
@@ -171,5 +172,16 @@ public class Movement : MonoBehaviour
         }
     }
 
-
+    public IEnumerator LocateGround()
+    {
+        while (spawnedYet == false)
+        {
+            if (Physics.Raycast(transform.position + new Vector3(0, 100, 0), Vector3.down))
+            {
+                transform.position = hit.point;
+                spawnedYet = true;
+            }
+            yield return new WaitForEndOfFrame();
+        }      
+    }
 }

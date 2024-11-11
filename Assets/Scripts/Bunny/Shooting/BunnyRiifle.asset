@@ -17,5 +17,5 @@ MonoBehaviour:
   realodTime: 1
   range: 90
   fireRate: 3
-  bulletSpeed: 10
+  bulletSpeed: 50
   bulletProjectile: {fileID: 5637689861573061700, guid: c69d40a35ea0b574393dc276c032f138, type: 3}

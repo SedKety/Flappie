@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8151780788286039873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.655028
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.6019125
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6375399
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1018664272722485354, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_Name
+      value: Shield powerup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424396828587804706, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb2ee198e4dff0242bca67dfe19c0eeb, type: 2}
+    - target: {fileID: 8100320773420232829, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35799daa1993925419909d1ffd0860b9, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fd90a39b8572bc428ae7736d036dcd4, type: 3}

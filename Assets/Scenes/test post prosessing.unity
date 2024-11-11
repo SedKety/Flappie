@@ -761,7 +761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &356846638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,7 +1817,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 290c61882ffb62143a52b6f789a5c653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highscoreMenu: {fileID: 0}
+  sensitivitySlider: {fileID: 0}
+  highscoreText: {fileID: 0}
+  highscorePoint: 0
 --- !u!114 &921882303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1832,7 +1834,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameTimer: 50000000
   timerFormatted: 
-  points: 0
   timer: {fileID: 1019023379}
   pointUi: {fileID: 1784383774}
   timeUpPoints: {fileID: 894440410}

@@ -45,14 +45,16 @@ public class AIHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         aiHealth -= damage;
-        impactParticle.Play();
-
         // Checks if the "AIHealth" float is under 1.
         if (aiHealth < 1 && !isDead)
         {
             // Executes void DIe.
             StartCoroutine("Die");
+            return;
         }
+        impactParticle.Play();
+
+
     }
 
     /// Die is called everytime a Unit dies.
@@ -60,6 +62,8 @@ public class AIHealth : MonoBehaviour
     {
         isDead = true;
         deathParticle.Play();
+        transform.GetChild(0).gameObject.SetActive(false);
+        gameObject.GetComponent<CapsuleCollider>().enabled = false;
         Score.points += aiStatistics.points;
         score.AddPoints();
         // Adds the amount of points the enemy gave to the player to the players point tally.

@@ -33,9 +33,12 @@ public class HunterWeaponManager : MonoBehaviour
     }
 
 
-    public void Shoot()
+    public void Shoot(Vector3 playerPosition)
     {
-        GameObject bullet = Instantiate(weaponStatistics.bulletProjectile, weaponTransform.position, weaponTransform.rotation);
+        Vector3 directionOfPlayer = playerPosition - transform.position;
+
+        Quaternion lookRotation = Quaternion.LookRotation(directionOfPlayer);
+        GameObject bullet = Instantiate(weaponStatistics.bulletProjectile, weaponTransform.position, lookRotation);
 
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * weaponStatistics.bulletSpeed;
 

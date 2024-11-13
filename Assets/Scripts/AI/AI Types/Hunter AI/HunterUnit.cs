@@ -167,13 +167,12 @@ public class HunterUnit : MonoBehaviour
 
     private void ShootAtPlayer()
     {
-        hunterWeaponManager.Shoot();
+        hunterWeaponManager.Shoot(target.position);
         hunterAnimator.SetTrigger("Shoot");
 
         if (thisAmmunition < 1)
         {
             hunterWeaponManager.canShoot = false;
-
 
             StartCoroutine(hunterWeaponManager.ReloadProces());
         }

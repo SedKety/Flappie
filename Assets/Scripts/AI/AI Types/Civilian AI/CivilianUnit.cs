@@ -43,6 +43,8 @@ public class CivilianUnit : MonoBehaviour
 
     public GameObject canvas;
 
+    private bool hasFoundPoint;
+
     private void Awake()
     {
         lineOfSight = GetComponent<LineOfSight>();
@@ -159,11 +161,20 @@ public class CivilianUnit : MonoBehaviour
 
     private void WalkAround()
     {
-        if (Vector3.Distance(transform.position, movePosition) < 0.1f)
+        if (Vector3.Distance(transform.position, movePosition) < 0.1f || !hasFoundPoint)
         {
-            SearchPoint();
-            agent.SetDestination(movePosition);
+            StartCoroutine(WaitForThisGuyToBeSmart());
         }
+    }
+
+    private IEnumerator WaitForThisGuyToBeSmart()
+    {
+        hasFoundPoint = true;
+        yield return new WaitForSeconds(2f);
+        SearchPoint();
+        agent.SetDestination(movePosition);
+        hasFoundPoint = false;
+
     }
 
     private void SearchPoint()

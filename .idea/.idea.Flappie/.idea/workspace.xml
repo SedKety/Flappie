@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="433f4c5b-2bd9-4e7c-882f-0254bb0aa991" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/MuzzleFlash.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/MuzzleFlash.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Effects/ParticleAddative.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Effects/ParticleAddative.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Effects/Satanic Circle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Effects/Satanic Circle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameJamArt/Models/powerup.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameJamArt/Models/powerup.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blood.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blood.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Grass/GrassShader 1.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grass/GrassShader 1.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Grass/Plane 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grass/Plane 1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Bunny/Bullet/Model/bullet.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Bunny/Bullet/Model/bullet.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Jager .fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Jager .fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Man.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Man.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Vrouw.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Vrouw.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom1/Model/Boom1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom1/Model/Boom1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom2/Model/Boom2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom2/Model/Boom2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom3/Model/Boom3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom3/Model/Boom3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom4/Model/Boom4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom4/Model/Boom4.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/BoomChop1/Model/BoomChop1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/BoomChop1/Model/BoomChop1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom1/Model/DodeBoom1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom1/Model/DodeBoom1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom2/Model/DodeBoom2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom2/Model/DodeBoom2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Stronk/Model/Stronk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Stronk/Model/Stronk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/CampFire/Model/Campfire.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/CampFire/Model/Campfire.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Plane/Model/Plane.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Plane/Model/Plane.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterCabin1/Model/HunterCabin1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterCabin1/Model/HunterCabin1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterHuis2/Model/HunterCabin2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterHuis2/Model/HunterCabin2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Blauw/Model/Tent1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Blauw/Model/Tent1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Oranje/Model/Tent1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Oranje/Model/Tent1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Paars/Model/Tent1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Paars/Model/Tent1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Blue/Model/Tent2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Blue/Model/Tent2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Green/Model/Tent2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Green/Model/Tent2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Pink/Model/Tent2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Pink/Model/Tent2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Blauw/Model/Tent3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Blauw/Model/Tent3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Paars/Model/Tent3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Paars/Model/Tent3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Yellow/Model/Tent3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Yellow/Model/Tent3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SoupHolder/Model/SoupHolder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SoupHolder/Model/SoupHolder.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen1/Model/Steen1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen1/Model/Steen1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen2/Model/Steen2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen2/Model/Steen2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen3/Model/Steen3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen3/Model/Steen3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen4/Model/Steen4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen4/Model/Steen4.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen1/Model/kleineSteen1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen1/Model/kleineSteen1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen2/Model/kleineSteen2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen2/Model/kleineSteen2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen3/Model/kleineSteen3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen3/Model/kleineSteen3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Waterwell/Model/Waterwell.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Waterwell/Model/Waterwell.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prefab/bun-rhonja.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prefab/bun-rhonja.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModelsTamas/GunBro.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsTamas/GunBro.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Groups/Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Groups/Stone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/Death Particle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/Death Particle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/Impact particle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/Impact particle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Hunter Unit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Hunter Unit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/PlayerHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/PlayerHolder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test post prosessing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test post prosessing.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bunny/Shooting/WeaponManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bunny/Shooting/WeaponManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/AIHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/AIHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2oi16QbAeQTvYeFaU0YbOio96ov" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\Patrick K\Documents\GitHub\Flappie&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Patrick K\Documents\GitHub\Flappie" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\Patrick K\Documents\GitHub\Flappie&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Patrick K\Documents\GitHub\Flappie" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="433f4c5b-2bd9-4e7c-882f-0254bb0aa991" name="Changes" comment="" />
+      <created>1731337408080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731337408080</updated>
+      <workItem from="1731337408083" duration="2745000" />
+      <workItem from="1731408414490" duration="2941000" />
+      <workItem from="1731493895238" duration="691000" />
+      <workItem from="1731497835904" duration="2816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

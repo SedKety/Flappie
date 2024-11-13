@@ -21,10 +21,12 @@ public class WeaponManager : MonoBehaviour
     public bool canShoot = true;
 
 
-    [Header("änimations")]
+    [Header("Animations")]
 
     [SerializeField] private Animator animator;
 
+    [Header("Particles")]
+    public ParticleSystem muzzleFlash;
 
     [Header("Sounds")]
 
@@ -100,9 +102,9 @@ public class WeaponManager : MonoBehaviour
             StartCoroutine(ReloadProces());
         }
 
-
+        
         gunShotSound.Play();
-
+        muzzleFlash.Play();
 
         canShoot = false;
 

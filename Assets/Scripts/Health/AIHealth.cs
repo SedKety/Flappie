@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -62,7 +63,7 @@ public class AIHealth : MonoBehaviour
     {
         isDead = true;
         deathParticle.Play();
-        transform.GetChild(0).gameObject.SetActive(false);
+        GetFirstChildWithLayer(transform, 8).gameObject.SetActive(false);
         gameObject.GetComponent<CapsuleCollider>().enabled = false;
         Score.points += aiStatistics.points;
         score.AddPoints();
@@ -71,5 +72,15 @@ public class AIHealth : MonoBehaviour
         yield return new WaitForSeconds(1);
         // Destroyes the gameobejct this script is on.
         Destroy(gameObject);
+    }
+
+    public static Transform GetFirstChildWithLayer(Transform t, int layer)
+    {
+        Transform[] array = new Transform[t.childCount];
+        for (int i = 0; i < t.childCount; i++)
+        {
+            array[i] = t.GetChild(i);
+        }
+        return array.First(x => x.gameObject.layer == layer);
     }
 }

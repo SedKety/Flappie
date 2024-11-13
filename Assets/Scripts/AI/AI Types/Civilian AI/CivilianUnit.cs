@@ -5,9 +5,7 @@ using UnityEngine.AI;
 
 public class CivilianUnit : MonoBehaviour
 {
-
     private NavMeshAgent agent;
-
 
     public bool isRunningFromPlayer;
 
@@ -93,6 +91,8 @@ public class CivilianUnit : MonoBehaviour
         if (lineOfSight.playerIsViseble == true)
         {
             isRunningFromPlayer = true;
+            RunningFromPlayer();
+            Ticker.Instance.OnTick += RunningFromPlayer;
             StartCoroutine(ShowTheMark());
             StartCoroutine(MakeTheMarkLook());
         }
@@ -123,7 +123,6 @@ public class CivilianUnit : MonoBehaviour
     {  
         if (isRunningFromPlayer)
         {
-            RunningFromPlayer();
             CheckIfPlayerIsGone();
 
         }
@@ -154,6 +153,7 @@ public class CivilianUnit : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, targetObject.position) > playerGoneRadius)
         {
+            Ticker.Instance.OnTick -= RunningFromPlayer;
             isRunningFromPlayer = false;
             agent.SetDestination(movePosition);
         }
@@ -161,7 +161,7 @@ public class CivilianUnit : MonoBehaviour
 
     private void WalkAround()
     {
-        if (Vector3.Distance(transform.position, movePosition) < 0.1f || !hasFoundPoint)
+        if (Vector3.Distance(transform.position, movePosition) < 0.1f && !hasFoundPoint)
         {
             StartCoroutine(WaitForThisGuyToBeSmart());
         }
@@ -190,5 +190,10 @@ public class CivilianUnit : MonoBehaviour
         }
     }
 
-    
+    private void OnDestroy()
+    {
+        Ticker.Instance.OnTick -= RunningFromPlayer;
+    }
+
+
 }

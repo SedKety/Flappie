@@ -1544,7 +1544,7 @@ MonoBehaviour:
   targetObject: {fileID: 0}
   rotationSpeed: 50
   playerGoneRadius: 20
-  avoidDistance: 10
+  avoidDistance: 30
   walkRadius: 10
   ground:
     serializedVersion: 2

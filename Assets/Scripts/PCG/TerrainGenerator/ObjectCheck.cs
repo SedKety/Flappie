@@ -15,9 +15,8 @@ public class ObjectCheck : MonoBehaviour
 
     void MoveObjects()
     {
-        Collider collider = gameObject.GetComponent<Collider>();
         LayerMask mask = LayerMask.GetMask("Ground");
-        Vector3 lowestPoint = collider.bounds.min;
+        Vector3 lowestPoint = gameObject.GetComponent<Collider>().bounds.min;
         if (Physics.Raycast(lowestPoint + Vector3.up * 1.2f, Vector3.down, out hit, 10000, mask))
         {
             float distanceToMoveDown = Vector3.Distance(lowestPoint, hit.point);

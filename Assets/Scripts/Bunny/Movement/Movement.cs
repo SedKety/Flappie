@@ -6,6 +6,7 @@ using UnityEngine.InputSystem.HID;
 
 public class Movement : MonoBehaviour
 {
+    public static Movement Instance;
     private BunnyInput bunnyInput;
     private InputAction move, rotate;
 
@@ -33,6 +34,7 @@ public class Movement : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         bunnyInput = new BunnyInput();
 
         jump = new Vector3 (0, 4, 0);

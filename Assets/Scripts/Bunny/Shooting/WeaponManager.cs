@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 /// this script 
 public class WeaponManager : MonoBehaviour
 {
+    public static WeaponManager Instance;
     [Header("Weapon Information")]
     public WeaponStatistics weaponStatistics;
     public Transform weaponTransform;
@@ -29,11 +30,23 @@ public class WeaponManager : MonoBehaviour
 
     [SerializeField] private AudioSource gunShotSound;
 
+    private float damage;
+    private int amunition;
+    private float realodTime;
+    private float fireRate;
+    private float bulletSpeed;
 
-    /// This function is called when the script instance is being loaded
-    private void Awake()
+    public float BulletRemovalLifetime;
+
+    public void Awake()
     {
-        // Create a new instance of the BunnyInput class.
+        damage = weaponStatistics.damage;
+        startAmunition = weaponStatistics.amunition;
+        thisAmmunition = weaponStatistics.amunition;
+        realodTime = weaponStatistics.realodTime;
+        fireRate = weaponStatistics.fireRate;
+        bulletSpeed = weaponStatistics.bulletSpeed;
+        BulletRemovalLifetime = weaponStatistics.BulletRemovalLifetime;
         bunnyInput = new BunnyInput();
     }
 
@@ -52,14 +65,6 @@ public class WeaponManager : MonoBehaviour
         shoot.Disable();
     }
 
-
-    /// Start is called 
-    private void Start()
-    {
-        startAmunition = weaponStatistics.amunition;
-
-        thisAmmunition = weaponStatistics.amunition;
-    }
 
 
     /// Shoot is called whenever the input action is called.
@@ -85,7 +90,7 @@ public class WeaponManager : MonoBehaviour
 
         GameObject bullet = Instantiate(weaponStatistics.bulletProjectile, weaponTransform.position, weaponTransform.rotation);
 
-        bullet.GetComponent<Rigidbody>().velocity = transform.forward * weaponStatistics.bulletSpeed;
+        bullet.GetComponent<Rigidbody>().velocity = transform.forward * bulletSpeed;
 
         thisAmmunition --;
 
@@ -111,7 +116,7 @@ public class WeaponManager : MonoBehaviour
         animator.SetTrigger("reload");
 
 
-        yield return new WaitForSeconds(weaponStatistics.realodTime);
+        yield return new WaitForSeconds(realodTime);
 
 
         OnReload();
@@ -119,7 +124,7 @@ public class WeaponManager : MonoBehaviour
 
     private IEnumerator FireCooldDown()
     {
-        yield return new WaitForSeconds(1 / weaponStatistics.fireRate);
+        yield return new WaitForSeconds(1 / fireRate);
 
 
         canShoot = true;

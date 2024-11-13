@@ -14,13 +14,26 @@ public class TempFixScript : MonoBehaviour
 
     public bool canShoot = true;
 
+    [Header("Weapon Info")]
 
-    /// Start is called 
-    private void Start()
+    private float damage;
+    private int amunition;
+    private float realodTime;
+    //public float range;
+    private float fireRate;
+    private float bulletSpeed;
+
+    public float BulletRemovalLifetime;
+
+    public void Awake()
     {
+        damage = weaponStatistics.damage;
         startAmunition = weaponStatistics.amunition;
-
         weaponAmmunition = weaponStatistics.amunition;
+        realodTime = weaponStatistics.realodTime;
+        fireRate = weaponStatistics.fireRate;
+        bulletSpeed = weaponStatistics.bulletSpeed;
+        BulletRemovalLifetime = weaponStatistics.BulletRemovalLifetime;
     }
 
 
@@ -34,7 +47,7 @@ public class TempFixScript : MonoBehaviour
     {
         GameObject bullet = Instantiate(weaponStatistics.bulletProjectile, weaponTransform.position, weaponTransform.rotation);
 
-        bullet.GetComponent<Rigidbody>().velocity = transform.right * weaponStatistics.bulletSpeed;
+        bullet.GetComponent<Rigidbody>().velocity = transform.right * bulletSpeed;
 
 
         weaponAmmunition--;
@@ -55,7 +68,7 @@ public class TempFixScript : MonoBehaviour
 
     public IEnumerator ReloadProces()
     {
-        yield return new WaitForSeconds(weaponStatistics.realodTime);
+        yield return new WaitForSeconds(realodTime);
 
 
         OnReload();
@@ -63,7 +76,7 @@ public class TempFixScript : MonoBehaviour
 
     private IEnumerator FireCooldDown()
     {
-        yield return new WaitForSeconds(1 / weaponStatistics.fireRate);
+        yield return new WaitForSeconds(1 / fireRate);
 
         canShoot = true;
     }

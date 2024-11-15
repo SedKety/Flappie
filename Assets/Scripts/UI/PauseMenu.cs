@@ -80,6 +80,7 @@ public class PauseMenu : MonoBehaviour
 
 
         pauseMenuPanel.SetActive(false);
+        settingsPanel.SetActive(false);
 
 
         Cursor.lockState = CursorLockMode.Locked;

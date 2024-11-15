@@ -21,6 +21,7 @@ public class Ticker : MonoBehaviour
     {
         while (true)
         {
+            
             yield return new WaitForSeconds(tickInterval);
             OnTick?.Invoke();
         }

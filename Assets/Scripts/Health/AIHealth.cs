@@ -12,12 +12,12 @@ public class AIHealth : MonoBehaviour
 
     [SerializeField] private Score score;
 
-
+    public GameObject dropItem;
     [Header("Scriptable Object")]
 
     [SerializeField] private AIStatistics aiStatistics;
 
-
+    private int randomNum;
     public float aiHealth;
     bool isDead;
     [Header("Particles")]
@@ -29,7 +29,7 @@ public class AIHealth : MonoBehaviour
     void Start()
     {
         aiHealth = aiStatistics.health;
-
+        randomNum = Random.Range(0, 3);
 
         score = GameObject.Find("GameManager").GetComponent<Score>();
     }
@@ -65,6 +65,10 @@ public class AIHealth : MonoBehaviour
         deathParticle.Play();
         GetFirstChildWithLayer(transform, 8).gameObject.SetActive(false);
         gameObject.GetComponent<CapsuleCollider>().enabled = false;
+        if (Random.Range(0, 3) == randomNum)
+        {
+            Instantiate(dropItem, new Vector3(transform.position.x, transform.position.y + 2, transform.position.z), Quaternion.identity);
+        }
         Score.points += aiStatistics.points;
         score.AddPoints();
         // Adds the amount of points the enemy gave to the player to the players point tally.
@@ -73,14 +77,11 @@ public class AIHealth : MonoBehaviour
         // Destroyes the gameobejct this script is on.
         Destroy(gameObject);
     }
+    
 
     public static Transform GetFirstChildWithLayer(Transform t, int layer)
     {
-        Transform[] array = new Transform[t.childCount];
-        for (int i = 0; i < t.childCount; i++)
-        {
-            array[i] = t.GetChild(i);
-        }
-        return array.First(x => x.gameObject.layer == layer);
+        Transform[] array = t.GetComponentsInChildren<Transform>();
+        return array.Last(x => x.gameObject.layer == layer);
     }
 }

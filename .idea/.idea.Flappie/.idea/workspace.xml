@@ -5,64 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="433f4c5b-2bd9-4e7c-882f-0254bb0aa991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/MuzzleFlash.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/MuzzleFlash.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappie/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Effects/ParticleAddative.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Effects/ParticleAddative.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Effects/Satanic Circle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Effects/Satanic Circle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameJamArt/Models/powerup.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameJamArt/Models/powerup.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Effects/Stan (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Effects/Stan (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameJamArt/Prefabs/sacrificial pedistool.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameJamArt/Prefabs/sacrificial pedistool.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Blood.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blood.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Grass/GrassShader 1.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grass/GrassShader 1.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Grass/Plane 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grass/Plane 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Bunny/Bullet/Model/bullet.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Bunny/Bullet/Model/bullet.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Jager .fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Jager .fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Man.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Man.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Vrouw.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/New Folder/Vrouw.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom1/Model/Boom1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom1/Model/Boom1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom2/Model/Boom2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom2/Model/Boom2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom3/Model/Boom3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom3/Model/Boom3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom4/Model/Boom4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Boom4/Model/Boom4.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/BoomChop1/Model/BoomChop1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/BoomChop1/Model/BoomChop1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom1/Model/DodeBoom1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom1/Model/DodeBoom1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom2/Model/DodeBoom2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/DodeBoom2/Model/DodeBoom2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Stronk/Model/Stronk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Bomen/Stronk/Model/Stronk.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/CampFire/Model/Campfire.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/CampFire/Model/Campfire.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Plane/Model/Plane.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Plane/Model/Plane.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterCabin1/Model/HunterCabin1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterCabin1/Model/HunterCabin1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterHuis2/Model/HunterCabin2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/HunterHuis2/Model/HunterCabin2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Blauw/Model/Tent1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Blauw/Model/Tent1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Oranje/Model/Tent1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Oranje/Model/Tent1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Paars/Model/Tent1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent1Paars/Model/Tent1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Blue/Model/Tent2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Blue/Model/Tent2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Green/Model/Tent2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Green/Model/Tent2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Pink/Model/Tent2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent2Pink/Model/Tent2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Blauw/Model/Tent3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Blauw/Model/Tent3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Paars/Model/Tent3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Paars/Model/Tent3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Yellow/Model/Tent3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SlaapPlek/Tenten/Tent3Yellow/Model/Tent3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SoupHolder/Model/SoupHolder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/SoupHolder/Model/SoupHolder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen1/Model/Steen1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen1/Model/Steen1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen2/Model/Steen2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen2/Model/Steen2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen3/Model/Steen3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen3/Model/Steen3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen4/Model/Steen4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen4/Model/Steen4.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen1/Model/kleineSteen1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen1/Model/kleineSteen1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen2/Model/kleineSteen2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen2/Model/kleineSteen2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen3/Model/kleineSteen3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/kSteen3/Model/kleineSteen3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Waterwell/Model/Waterwell.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Waterwell/Model/Waterwell.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Prefab/bun-rhonja.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prefab/bun-rhonja.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ModelsTamas/GunBro.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ModelsTamas/GunBro.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Groups/Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Groups/Stone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/Death Particle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/Death Particle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/Impact particle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/Impact particle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/Textures/New Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Characters/Textures/New Material 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen3/Texture/Steen3-moss.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Assets/Enviroment/Stenen/Steen3/Texture/Steen3-moss.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Groups/Stone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Groups/Stone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Civilian Unit Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Civilian Unit Female.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Civilian Unit Male.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Civilian Unit Male.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Hunter Unit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Hunter Unit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/PlayerHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/PlayerHolder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test post prosessing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test post prosessing.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Mesh Generator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgramPrefabs/Mesh Generator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/klSteen2-moss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/klSteen2-moss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PrefabScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PrefabScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bunny/Movement/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bunny/Movement/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bunny/Shooting/BulletManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bunny/Shooting/BulletManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bunny/Shooting/WeaponManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bunny/Shooting/WeaponManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/AIHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/AIHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PCG/TerrainGenerator/GenerateTerrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PCG/TerrainGenerator/GenerateTerrain.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +36,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/89/fd0a7b8d/Component.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/dc/21ff749d/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -142,7 +112,8 @@
       <workItem from="1731337408083" duration="2745000" />
       <workItem from="1731408414490" duration="2941000" />
       <workItem from="1731493895238" duration="691000" />
-      <workItem from="1731497835904" duration="2816000" />
+      <workItem from="1731497835904" duration="8668000" />
+      <workItem from="1731664665822" duration="7276000" />
     </task>
     <servers />
   </component>

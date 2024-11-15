@@ -9,6 +9,7 @@ public class BulletManager : MonoBehaviour
 
     public WeaponStatistics weaponStatistics;
 
+    public GameObject shooterGameObject;
 
     [Header("Bullet Position")]
 
@@ -36,7 +37,7 @@ public class BulletManager : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // Checks the collision layer of the object the bullet colided with.
-        if (collision.gameObject.layer == 6)
+        if (collision.gameObject.layer == 6 && collision.gameObject != shooterGameObject)
         {
             // Gets the component "PlayerHealth" script from the object it has collided with after witch it executes the void take damage. 
             collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(weaponStatistics.damage);

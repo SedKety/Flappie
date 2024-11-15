@@ -273,6 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 798422710117832112}
   camHolder: {fileID: 5772253712144945496}
+  amountOfHead: 6
   jumpForce: 10
   sensitivity: 0.2
   moveSpeed: 0.8

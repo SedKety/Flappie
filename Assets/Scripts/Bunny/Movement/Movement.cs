@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     public Rigidbody rb;
     public Camera camHolder;
 
-  
+    public int amountOfHead;
     public float jumpForce, sensitivity, moveSpeed, sprintspeed, currentSpeed;
 
     public Vector3 forceDirection;
@@ -85,7 +85,25 @@ public class Movement : MonoBehaviour
             rb.velocity -= Vector3.down * Physics.gravity.y * 3.5f * Time.deltaTime;
         }
 
-
+        if (Input.GetKey(KeyCode.E))
+        {
+            if (Physics.Raycast(transform.position, transform.forward, out hit, 1f))
+            {
+                if (hit.transform.GetComponent<Item>())
+                {
+                    hit.transform.GetComponent<Item>().PickUpItem();
+                }
+                else if (hit.transform.GetComponent<OfferAltar>())
+                {
+                    OfferAltar altar = hit.transform.GetComponent<OfferAltar>();
+                    if (amountOfHead > 0 && !altar.hasAdded)
+                    {
+                        altar.AddSacrifice();
+                        amountOfHead--;
+                    }
+                }
+            }
+        }
         if (Physics.Raycast(transform.position, -Vector3.up, out hit, 0.9f))
         {
             if (hit.transform.tag == "Jumpable")

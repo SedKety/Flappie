@@ -1586,6 +1586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 0}
+  dropItem: {fileID: 1465412992475426684, guid: f32960daf4b4d5842a67d89a4575b5e5, type: 3}
   aiStatistics: {fileID: 11400000, guid: e5fccde09aad2524ca9a1a080cc2dca6, type: 2}
   aiHealth: 0
   impactParticle: {fileID: 1257483211198336673}

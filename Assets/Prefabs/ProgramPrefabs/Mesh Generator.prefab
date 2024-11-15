@@ -106,6 +106,7 @@ MonoBehaviour:
   octaves: 3
   lacunarity: 1.12
   persistance: 1.15
+  altar: {fileID: 3954903819212784087, guid: 6ad4bd833ab435c4ba8a1aabf1b57350, type: 3}
   terrainGradient:
     serializedVersion: 2
     key0: {r: 0.14947094, g: 0.21509439, b: 0.14731936, a: 1}
@@ -158,7 +159,6 @@ MonoBehaviour:
   - {fileID: 5612450083528394905, guid: d82ab0f006a7dfb46a4a7828c118806f, type: 3}
   - {fileID: 7511423096170569432, guid: ddb964fd963f01d4f876ec1d054b3e61, type: 3}
   - {fileID: 5020437146114271042, guid: 99add72a26d5435438d8c6cb07abf5f4, type: 3}
-  - {fileID: 3954903819212784087, guid: 6ad4bd833ab435c4ba8a1aabf1b57350, type: 3}
   - {fileID: 3157029112029549001, guid: 8d21b9e7f8152b84baa5c4f542c2e33a, type: 3}
   - {fileID: 8665359871246719765, guid: d406047574a7b884b81875e5795fd14b, type: 3}
   - {fileID: 3361356136886734576, guid: 490fbf64d90db564b98082461c3b791e, type: 3}
@@ -178,6 +178,7 @@ MonoBehaviour:
   - {fileID: 7511423096170569432, guid: ddb964fd963f01d4f876ec1d054b3e61, type: 3}
   - {fileID: 419838735507487688, guid: c9bc0e939b21c404abb91ec76b8a166c, type: 3}
   - {fileID: 419838735507487688, guid: c9bc0e939b21c404abb91ec76b8a166c, type: 3}
+  - {fileID: 9070699067262736912, guid: 7ef37a113e7965544b482546f2c1c534, type: 3}
   grass: {fileID: 596565705550979693, guid: 56e64fc61aa20bb4381b1f03e53112cb, type: 3}
 --- !u!64 &7979516696082803130
 MeshCollider:

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,7 +14,7 @@ public class WeaponManager : MonoBehaviour
 
     private BunnyInput bunnyInput;
     private InputAction shoot;
-
+    private GameObject parent;
 
     private int startAmunition;
     private int thisAmmunition;
@@ -52,6 +53,10 @@ public class WeaponManager : MonoBehaviour
         bunnyInput = new BunnyInput();
     }
 
+    private void Start()
+    {
+        parent = weaponTransform.root.gameObject;
+    }
 
     private void OnEnable()
     {
@@ -93,7 +98,7 @@ public class WeaponManager : MonoBehaviour
         GameObject bullet = Instantiate(weaponStatistics.bulletProjectile, weaponTransform.position, weaponTransform.rotation);
 
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * bulletSpeed;
-
+        bullet.GetComponent<BulletManager>().shooterGameObject = parent;
         thisAmmunition --;
 
 

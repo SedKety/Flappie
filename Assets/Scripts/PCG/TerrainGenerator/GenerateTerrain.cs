@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GenerateTerrain : MonoBehaviour
@@ -17,10 +18,10 @@ public class GenerateTerrain : MonoBehaviour
     [SerializeField] float lacunarity = 2;
     [SerializeField] float persistance = 0.5f;
     float lastNoiseHeight;
-
+    private bool hasGeneratedAltar;
     float minTerrainHeight;
     float maxTerrainHeight;
-
+    public GameObject altar;
     [SerializeField] Gradient terrainGradient;
     [SerializeField] Material material;
 
@@ -113,13 +114,26 @@ public class GenerateTerrain : MonoBehaviour
                         Instantiate(treesToSpawn, new Vector3(mesh.vertices[i].x * meshScale, spawnAboveTerrain, mesh.vertices[i].z * meshScale), Quaternion.Euler(new Vector3(0, Random.Range(0,360), 0)), treeHolder.transform);
                         //treesToSpawn.transform.SetParent(treeHolder.transform);
                     }
-                    else if(Random.Range(0, 3) == 1)
+                    else if (Random.Range(0, 3) == 1)
                     {
                         GameObject objectsToSpawn = objects[Random.Range(0, objects.Length)];
                         var spawnAboveTerrain = noiseHeight * 1.5f;
-                        Instantiate(objectsToSpawn, new Vector3(mesh.vertices[i].x * meshScale, spawnAboveTerrain, mesh.vertices[i].z * meshScale), Quaternion.Euler(new Vector3(0, Random.Range(0, 360), 0)), objectHolder.transform);
+                        Instantiate(objectsToSpawn,
+                            new Vector3(mesh.vertices[i].x * meshScale, spawnAboveTerrain,
+                                mesh.vertices[i].z * meshScale),
+                            Quaternion.Euler(new Vector3(0, Random.Range(0, 360), 0)), objectHolder.transform);
                     }
-                   
+                    else if (!hasGeneratedAltar && i >= 50)
+                    {
+                        GameObject objectToSpawn = altar;
+                        var spawnAboveTerrain = noiseHeight * 1.5f;
+                        GameObject generatedObject = Instantiate(altar,                             
+                            new Vector3(mesh.vertices[i].x * meshScale, spawnAboveTerrain,
+                                mesh.vertices[i].z * meshScale),
+                            Quaternion.Euler(new Vector3(0, Random.Range(0, 360), 0)), objectHolder.transform);
+                        hasGeneratedAltar = true;
+                        StartCoroutine(Wait(generatedObject));
+                    }
                     var spawnGrassAboveTerrain = noiseHeight * 1.5f;
 
                     Instantiate(grass, new Vector3(mesh.vertices[i].x * meshScale, spawnGrassAboveTerrain, mesh.vertices[i].z * meshScale), Quaternion.Euler(new Vector3(0, Random.Range(0, 360), 0)), grassHolder.transform);
@@ -202,5 +216,15 @@ public class GenerateTerrain : MonoBehaviour
 
 
         //SpawnObjects();
+    }
+
+    private IEnumerator Wait(GameObject generatedObject)
+    {
+        yield return new WaitForSeconds(1);
+        for (int x = 10; x < 17; x++)
+        {
+            Vector3 pos = generatedObject.transform.GetChild(x).position;
+            generatedObject.transform.GetChild(x).position = new Vector3(pos.x, generatedObject.transform.GetChild(4).position.y, pos.z);
+        }
     }
 }
